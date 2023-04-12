@@ -47,3 +47,6 @@ Too many.
 
 ## Conclusion
 Well, all that to say I am not very satisfied with what I could do in such a limited time.
+
+## Tests
+The tests were committed after the two hours, so feel free to discard them.
