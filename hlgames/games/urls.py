@@ -5,6 +5,7 @@ from games import views
 
 router = routers.DefaultRouter()
 router.register(r"games", views.GameViewSet)
+router.register(r"platforms", views.PlatformViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),

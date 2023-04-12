@@ -11,4 +11,4 @@ class Game(models.Model):
     studio = models.TextField(max_length=100, null=False)
     release_date = models.DateField(null=False)
     ratings = models.IntegerField(null=True)
-    platforms = models.ForeignKey(Platform, on_delete=models.CASCADE)
+    platforms = models.ManyToManyField(Platform)
